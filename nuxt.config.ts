@@ -5,12 +5,14 @@ export default defineNuxtConfig({
   modules: ['@nuxt/content', 'nuxt-i18n-micro'],
   i18n: {
     locales: [
-      { code: 'en', iso: 'en-US', dir: 'ltr' },
-      { code: 'cs', iso: 'cs-CZ', dir: 'ltr' },
+      { code: 'en', iso: 'en-US', dir: 'ltr', displayName: 'English' },
+      { code: 'cs', iso: 'cs-CZ', dir: 'ltr', displayName: 'Cestina' },
     ],
     defaultLocale: 'cs',
     translationDir: 'locales',
     meta: false,
     disablePageLocales: true,
+     
+    
   },
 })

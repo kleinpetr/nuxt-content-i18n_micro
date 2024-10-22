@@ -22,8 +22,8 @@ importers:
         specifier: ^2.13.2
         version: 2.13.2(ioredis@5.4.1)(magicast@0.3.5)(nuxt@3.13.2(@parcel/watcher@2.4.1)(@types/node@22.7.5)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.24.0)(terser@5.34.1)(vite@5.4.8(@types/node@22.7.5)(terser@5.34.1)))(rollup@4.24.0)(vue@3.5.11)
       nuxt-i18n-micro:
-        specifier: ^1.26.3
-        version: 1.26.3(magicast@0.3.5)(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.5)(terser@5.34.1))
+        specifier: ^1.29.4
+        version: 1.29.4(magicast@0.3.5)(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.5)(terser@5.34.1))
 
 packages:
 
@@ -2548,8 +2548,8 @@ packages:
     engines: {node: ^16.10.0 || >=18.0.0}
     hasBin: true
 
-  nuxt-i18n-micro@1.26.3:
-    resolution: {integrity: sha512-Plek0QPDnwMBrdqeeS2gY43JEnENhq7McZ1574jvvYcDec0cqsaPF/+Aga6zlCr0jWYgGaEuxDHWAgg+U6NhTA==}
+  nuxt-i18n-micro@1.29.4:
+    resolution: {integrity: sha512-oNILcHVlAvlUe+ILhIFFOhD7l2g/DjvknwWLm5a62Z8+9Se35Yg0E/QeZDGnFSQ9RsAiAnYEhF7vw0H8yfxeug==}
 
   nuxt@3.13.2:
     resolution: {integrity: sha512-Bjc2qRsipfBhjXsBEJCN+EUAukhdgFv/KoIR5HFB2hZOYRSqXBod3oWQs78k3ja1nlIhAEdBG533898KJxUtJw==}
@@ -6638,7 +6638,7 @@ snapshots:
 
   nuxi@3.14.0: {}
 
-  nuxt-i18n-micro@1.26.3(magicast@0.3.5)(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.5)(terser@5.34.1)):
+  nuxt-i18n-micro@1.29.4(magicast@0.3.5)(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.5)(terser@5.34.1)):
     dependencies:
       '@nuxt/devtools-kit': 1.5.2(magicast@0.3.5)(rollup@4.24.0)(vite@5.4.8(@types/node@22.7.5)(terser@5.34.1))
       '@nuxt/kit': 3.13.2(magicast@0.3.5)(rollup@4.24.0)
