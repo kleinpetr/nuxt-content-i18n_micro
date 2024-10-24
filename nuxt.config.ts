@@ -8,11 +8,10 @@ export default defineNuxtConfig({
       { code: 'en', iso: 'en-US', dir: 'ltr', displayName: 'English' },
       { code: 'cs', iso: 'cs-CZ', dir: 'ltr', displayName: 'Cestina' },
     ],
+    autoDetectLanguage: true,
     defaultLocale: 'cs',
     translationDir: 'locales',
     meta: false,
-    disablePageLocales: true,
-     
-    
+    disablePageLocales: true,  
   },
 })
